@@ -1,0 +1,31 @@
+.sidepanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 3;
+  top: 226px;
+  left: 3px;
+  height: 340px;
+  &__title {
+    margin-top: 55px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    transform: rotate(-90deg);
+  }
+  &__divider {
+    height: 70px;
+    width: 2px;
+    background-color: #fff;
+  }
+}
+
+.scrolled {
+  color: #000;
+}
+
+.scrolled2 {
+  background: #000;
+}
